@@ -1,0 +1,37 @@
+body {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+.container {
+  text-align: center;
+  background-color: white;
+  width: 70%; /* Ajuste a largura conforme necessário */
+  max-width: 400px; /* Largura máxima para manter o conteúdo legível */
+  height: auto;
+  padding: 20px; /* Adiciona algum espaçamento interno */
+}
+.select-box, .paste-screen, .operadores-screen {
+  display: none;
+}
+
+button{
+  background-color: #141414;
+  border: 1px solid rgba(54, 54, 54, 0.6);
+  color: white;
+  font-weight: 600;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 45px;
+  width: 130px;
+  opacity: 1;
+}
+#next-btn{
+  margin-top: 15px;
+}
